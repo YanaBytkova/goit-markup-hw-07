@@ -216,25 +216,28 @@
       <!-- Section 2 -->
       <section class="sect-two-container">
         <div class="container">
-          <h2 class="header-two">What are we doing</h2>
+          <h2 class="header-two-sect">What are we doing</h2>
           <ul class="sect-two-list list">
             <li class="sect-two-cards">
               <img
-                src="./images/img-1.jpg"
+                srcset="./images/desktop/img-1@2x.jpg 2x"
+                src="./images/desktop/img-1.jpg"
                 alt="Design on monitor"
                 width="360"
               />
             </li>
             <li class="sect-two-cards">
               <img
-                src="./images/img-2.jpg"
+                srcset="./images/desktop/img-2@2x.jpg 2x"
+                src="./images/desktop/img-2.jpg"
                 alt="Open windows on smartphone"
                 width="360"
               />
             </li>
             <li class="sect-two-cards">
               <img
-                src="./images/img-3.jpg"
+                srcset="./images/desktop/img-3@2x.jpg 2x"
+                src="./images/desktop/img-3.jpg"
                 alt="Smartphone on the front and netbook on the back"
                 width="360"
               />
@@ -246,15 +249,68 @@
       <!-- Section 3 -->
       <section class="sect-three-light-bg sect-three-container">
         <div class="container">
-          <h2 class="header-two">Our Team</h2>
+          <h2 class="header-two-sect">Our Team</h2>
           <ul class="list container-team-card">
             <li class="list-cards">
-              <img
-                src="./images/teamcard-1.jpg"
-                alt="Product Desidner's photo"
-                width="264"
-                class="image-team-card im-tc-one"
-              />
+              <picture>
+                <!-- DESKTOP -->
+                <source
+                  srcset="
+                    ./images/desktop/teamcard-1.webp    1x,
+                    ./images/desktop/teamcard-1@2x.webp 2x
+                  "
+                  media="(min-width: 1168px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/teamcard-1.jpg    1x,
+                    ./images/desktop/teamcard-1@2x.jpg 2x
+                  "
+                  media="(min-width: 1168px)"
+                />
+
+                <!-- TABLET -->
+                <source
+                  srcset="
+                    ./images/tablet/teamcard-1.webp    1x,
+                    ./images/tablet/teamcard-1@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/teamcard-1.jpg     1x,
+                    ./images/tablet/teamcard-1@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <!-- MOBILE -->
+                <source
+                  srcset="
+                    ./images/teamcard-1.webp    1x,
+                    ./images/teamcard-1@2x.webp 2x
+                  "
+                  media="(min-width: 320px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/teamcard-1.jpg    1x,
+                    ./images/teamcard-1@2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+
+                <img
+                  src="./images/teamcard-1.jpg"
+                  alt="Product Desidner's photo"
+                  width="264"
+                  class="image-team-card im-tc-one"
+                />
+              </picture>
               <div class="card-content-container">
                 <h3 class="header-three">Mark Guerrero</h3>
                 <p class="profession">Product Designer</p>
@@ -291,6 +347,57 @@
               </div>
             </li>
             <li class="list-cards">
+              <picture>
+                <!-- DESKTOP -->
+                <source
+                  srcset="
+                    ./images/desktop/teamcard-2.webp    1x,
+                    ./images/desktop/teamcard-2@2x.webp 2x
+                  "
+                  media="(min-width: 1168px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/teamcard-2.jpg    1x,
+                    ./images/desktop/teamcard-2@2x.jpg 2x
+                  "
+                  media="(min-width: 1168px)"
+                />
+
+                <!-- TABLET -->
+                <source
+                  srcset="
+                    ./images/tablet/teamcard-2.webp    1x,
+                    ./images/tablet/teamcard-2@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/teamcard-2.jpg     1x,
+                    ./images/tablet/teamcard-2@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <!-- MOBILE -->
+                <source
+                  srcset="
+                    ./images/teamcard-2.webp    1x,
+                    ./images/teamcard-2@2x.webp 2x
+                  "
+                  media="(min-width: 320px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/teamcard-2.jpg    1x,
+                    ./images/teamcard-2@2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
               <img
                 src="./images/teamcard-2.jpg"
                 alt="Frontend Developer's photo"
@@ -333,6 +440,57 @@
               </div>
             </li>
             <li class="list-cards">
+              <picture>
+                <!-- DESKTOP -->
+                <source
+                  srcset="
+                    ./images/desktop/teamcard-3.webp    1x,
+                    ./images/desktop/teamcard-3@2x.webp 2x
+                  "
+                  media="(min-width: 1168px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/teamcard-3.jpg    1x,
+                    ./images/desktop/teamcard-3@2x.jpg 2x
+                  "
+                  media="(min-width: 1168px)"
+                />
+
+                <!-- TABLET -->
+                <source
+                  srcset="
+                    ./images/tablet/teamcard-3.webp    1x,
+                    ./images/tablet/teamcard-3@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/teamcard-3.jpg     1x,
+                    ./images/tablet/teamcard-3@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <!-- MOBILE -->
+                <source
+                  srcset="
+                    ./images/teamcard-3.webp    1x,
+                    ./images/teamcard-3@2x.webp 2x
+                  "
+                  media="(min-width: 320px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/teamcard-3.jpg    1x,
+                    ./images/teamcard-3@2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
               <img
                 src="./images/teamcard-3.jpg"
                 alt="Marketing's photo"
@@ -375,6 +533,57 @@
               </div>
             </li>
             <li class="list-cards">
+              <picture>
+                <!-- DESKTOP -->
+                <source
+                  srcset="
+                    ./images/desktop/teamcard-4.webp    1x,
+                    ./images/desktop/teamcard-4@2x.webp 2x
+                  "
+                  media="(min-width: 1168px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/teamcard-4.jpg    1x,
+                    ./images/desktop/teamcard-4@2x.jpg 2x
+                  "
+                  media="(min-width: 1168px)"
+                />
+
+                <!-- TABLET -->
+                <source
+                  srcset="
+                    ./images/tablet/teamcard-4.webp    1x,
+                    ./images/tablet/teamcard-4@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/teamcard-4.jpg     1x,
+                    ./images/tablet/teamcard-4@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <!-- MOBILE -->
+                <source
+                  srcset="
+                    ./images/teamcard-4.webp    1x,
+                    ./images/teamcard-4@2x.webp 2x
+                  "
+                  media="(min-width: 320px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/teamcard-4.jpg    1x,
+                    ./images/teamcard-4@2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
               <img
                 src="./images/teamcard-4.jpg"
                 alt="UI Desidner's photo"
@@ -421,7 +630,7 @@
       </section>
       <section class="sect-four-container">
         <div class="container">
-          <h2 class="header-two">Customers</h2>
+          <h2 class="header-two-sect">Customers</h2>
           <ul class="list customer-list">
             <li class="customer-list-item">
               <a href="#" class="custom-link">

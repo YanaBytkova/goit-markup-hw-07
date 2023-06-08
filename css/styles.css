@@ -200,6 +200,9 @@ img {
 
 .menu-container {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   top: 0;
   left: 0;
   width: 100vw;
@@ -242,7 +245,7 @@ img {
   padding: 0px;
   gap: 40px;
   margin-top: 80px;
-  margin-bottom: 284px;
+  
 }
 
 .adress-contacts-mobile {
@@ -540,7 +543,7 @@ img {
 .customer-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px 16px;
   justify-content: space-evenly;
   margin-top: 72px;
 }
@@ -644,7 +647,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin: auto;
 }
 
 .subscribe-form-tittle {
@@ -656,7 +658,7 @@ img {
 }
 
 .subscribe-form-input {
-  width: 398px;
+  width: 100%;
   height: 40px;
   background-color: transparent;
   outline: none;
@@ -921,7 +923,10 @@ img {
     flex-direction: column;
     gap: 8px;
   }
-
+  .link-contacts .link {
+    letter-spacing: 0.02em;
+    color: var(--brand-color4);
+  }
   .background {
     min-width: 768px;
     height: 436px;
@@ -1016,7 +1021,6 @@ img {
  
 
   .soc-media {
-   
     text-align: left;
   }
 
@@ -1348,6 +1352,7 @@ img {
     align-items: baseline;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    gap: 0;
     padding: 0;
   }
   .footer-container-one {
@@ -1367,13 +1372,12 @@ img {
     display: flex;
     flex-direction: row;
     position: relative;
+    gap: 24px;
   }
 
   .subscribe-label {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    margin-right: 24px;
+   
+    margin-right: 0;
   }
 
   .subscribe-form-tittle {
